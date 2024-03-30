@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "next.js",
+      "title": "Next.jsを学ぶ",
+      "content": "udemyでNext.jsを学んでいます。",
+      "createdAt": "2024/03/31"
+    },
+    {
+      "id": "json-server",
+      "title": "Json-Server",
+      "content": "udemyでNext.jsとtailwind css、Json-Serverを使用してサンプルを作成しています。最終的にはDBaasであるSupabaseも使用して、簡単なブログシステムを作成する予定です。",
+      "createdAt": "2024/04/01"
+    }
+  ]
+}
