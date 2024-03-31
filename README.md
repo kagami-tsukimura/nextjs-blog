@@ -59,3 +59,9 @@ docker run -d -it -p 3000:3000 nextjs14
 ```bash:
 npm run dev
 ```
+
+別のターミナルで、json-server を起動してください。
+
+```bash:
+npm run json-server
+```
