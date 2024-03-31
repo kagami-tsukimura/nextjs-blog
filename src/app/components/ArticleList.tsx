@@ -20,26 +20,29 @@ const ArticleList = ({ articles }: ArticleListProps) => {
             ></Image>
           </Link>
           <div className='bg-white flex flex-col justify-start p-6'>
-            <a
+            <Link
               href={`articles/${article.id}`}
               className='text-blue-700 pb-4 font-bold'
             >
-              {article.title}
-            </a>
-            <a
+              {article.id}
+            </Link>
+            <Link
               href={`articles/${article.id}`}
               className='text-slate-900 text-3xl font-bold hover:text-gray-700 pb-4'
             >
-              {article.content}
-            </a>
+              {article.title}
+            </Link>
+
             <p className='text-sm pb-3 text-slate-900'>
               By Kagami, Published on {article.createdAt}
             </p>
-            <Link href='#' className='text-slate-900 pb-6'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              reprehenderit beatae id debitis magni, inventore temporibus
-              explicabo omnis fuga veritatis officia? Ex debitis, iste deleniti
-              consectetur sequi magnam ducimus veniam?
+            <Link
+              href={`articles/${article.id}`}
+              className='pb-6 text-slate-900'
+            >
+              {article.content.length > 70
+                ? `${article.content.substring(0, 70)}...`
+                : article.content}
             </Link>
             <Link
               href={`articles/${article.id}`}
