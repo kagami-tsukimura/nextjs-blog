@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import { createArticle } from "@/blogApi";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const createBlogPage = () => {
@@ -13,6 +13,9 @@ const createBlogPage = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     await createArticle(id, title, content);
+
+    router.push("/");
+    router.refresh();
   };
 
   return (
