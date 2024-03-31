@@ -12,7 +12,6 @@ const Article = async ({ params }: { params: { id: string } }) => {
         height={300}
         width={1280}
       ></Image>
-      {params.id}
       <h1 className='text-4xl text-center mb-10 mt-10'>{detail.title}</h1>
       <div className='text-lg leading-relaxed text-justify'>
         <p>{detail.content}</p>
