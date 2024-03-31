@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className='py-5 px-10 border-b flex justify-between items-center'>
+    <header className='py-5 px-10 border-b flex justify-between items-center border-slate-500'>
       <div>
         <h1 className='text-2xl font-extrabold'>
           <Link href='/'>Next.js Blog</Link>
