@@ -7,12 +7,6 @@
       "createdAt": "2024/03/31"
     },
     {
-      "id": "json-server",
-      "title": "Json-Server",
-      "content": "udemyでNext.jsとtailwind css、Json-Serverを使用してサンプルを作成しています。最終的にはDBaasであるSupabaseも使用して、簡単なブログシステムを作成する予定です。",
-      "createdAt": "2024/04/01"
-    },
-    {
       "id": "kagami",
       "title": "test-message",
       "content": "Test message is ...Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum ipsum eos corrupti quam aliquam atque magni quasi quis odit nulla cum, doloremque veniam accusantium? Ipsam numquam eos obcaecati inventore.",
@@ -23,42 +17,6 @@
       "title": "bbb",
       "content": "ccc",
       "createdAt": "2024-03-31T12:06:40.938Z"
-    },
-    {
-      "id": "cs",
-      "title": "cv",
-      "content": "ss",
-      "createdAt": "2024-03-31T12:10:31.378Z"
-    },
-    {
-      "id": "asdf",
-      "title": "afds",
-      "content": "afsdfds",
-      "createdAt": "2024-03-31T12:11:24.150Z"
-    },
-    {
-      "id": "a",
-      "title": "a",
-      "content": "a",
-      "createdAt": "2024-03-31T12:19:55.609Z"
-    },
-    {
-      "id": "a",
-      "title": "s",
-      "content": "s",
-      "createdAt": "2024-03-31T12:22:17.775Z"
-    },
-    {
-      "id": "a",
-      "title": "aa",
-      "content": "aa",
-      "createdAt": "2024-03-31T12:24:59.805Z"
-    },
-    {
-      "id": "fad",
-      "title": "fasd",
-      "content": "fd",
-      "createdAt": "2024-03-31T12:26:02.915Z"
     }
   ]
 }
