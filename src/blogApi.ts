@@ -53,6 +53,8 @@ export const createArticle = async (
     throw new Error("Error");
   }
 
+  await new Promise((resolve) => setTimeout(resolve, 1500));
+
   const newArticle = await res.json();
   return newArticle;
 };
