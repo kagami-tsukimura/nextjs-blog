@@ -3,7 +3,6 @@ import Image from "next/image";
 
 const Article = async ({ params }: { params: { id: string } }) => {
   const detail = await getDetailArticle(params.id);
-  console.log(detail);
 
   return (
     <div className='max-w-3xl mx-auto p-5'>
@@ -14,9 +13,9 @@ const Article = async ({ params }: { params: { id: string } }) => {
         width={1280}
       ></Image>
       {params.id}
-      <h1 className='text-4xl text-center mb-10 mt-10'>タイトル</h1>
+      <h1 className='text-4xl text-center mb-10 mt-10'>{detail.title}</h1>
       <div className='text-lg leading-relaxed text-justify'>
-        <p>本文</p>
+        <p>{detail.content}</p>
       </div>
     </div>
   );
