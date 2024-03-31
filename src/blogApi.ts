@@ -28,8 +28,8 @@ export const getDetailArticle = async (id: string): Promise<Article> => {
     throw new Error("Error");
   }
 
-  // loading test
-  await new Promise((resolve) => setTimeout(resolve, 1500));
+  // // loading test
+  // await new Promise((resolve) => setTimeout(resolve, 1500));
 
   const article = await res.json();
   return article;
