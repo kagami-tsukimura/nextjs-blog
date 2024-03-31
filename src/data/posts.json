@@ -11,6 +11,12 @@
       "title": "Json-Server",
       "content": "udemyでNext.jsとtailwind css、Json-Serverを使用してサンプルを作成しています。最終的にはDBaasであるSupabaseも使用して、簡単なブログシステムを作成する予定です。",
       "createdAt": "2024/04/01"
+    },
+    {
+      "id": "kagami",
+      "title": "test-message",
+      "content": "Test message is ...Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum ipsum eos corrupti quam aliquam atque magni quasi quis odit nulla cum, doloremque veniam accusantium? Ipsam numquam eos obcaecati inventore.",
+      "createdAt": "2024/04/02"
     }
   ]
 }
