@@ -5,12 +5,6 @@
       "title": "Next.jsを学ぶ",
       "content": "udemyでNext.jsを学んでいます。",
       "createdAt": "2024/03/31"
-    },
-    {
-      "id": "kagami",
-      "title": "test-message",
-      "content": "Test message is ...Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorum ipsum eos corrupti quam aliquam atque magni quasi quis odit nulla cum, doloremque veniam accusantium? Ipsam numquam eos obcaecati inventore.",
-      "createdAt": "2024/04/02"
     }
   ]
 }
