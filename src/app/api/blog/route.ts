@@ -9,5 +9,5 @@ export async function GET(req: Request, res: NextApiResponse) {
     return NextResponse.json(error);
   }
 
-  return NextResponse.json({ message: "Success", data }, { status: 200 });
+  return NextResponse.json(data, { status: 200 });
 }
