@@ -32,7 +32,8 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
         </Link>
 
         <p className='text-sm pb-3 text-slate-900'>
-          By Kagami, Published on {article.createdAt}
+          By Kagami, Published on{" "}
+          {new Date(article.createdAt).toLocaleDateString()}
         </p>
         <Link href={`articles/${article.id}`} className='pb-6 text-slate-900'>
           {article.content.length > 70
