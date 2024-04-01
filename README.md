@@ -60,8 +60,10 @@ docker run -d -it -p 3000:3000 nextjs14
 npm run dev
 ```
 
-別のターミナルで、json-server を起動してください。
+`.env.local`に、環境設定をします。
 
-```bash:
-npm run json-server
+```.env.local:
+NEXT_PUBLIC_SUPABASE_URL=<SupabaseのProject URLを指定>
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<SupabaseのAPI Keyを指定>
+NEXT_PUBLIC_API_URL=<http://localhost:3000>
 ```
