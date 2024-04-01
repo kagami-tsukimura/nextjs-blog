@@ -1,6 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
-import { createArticle } from "@/blogApi";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -17,7 +16,15 @@ const createBlogPage = () => {
     // Now Loading...
     setLoading(true);
 
-    await createArticle(id, title, content);
+    const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
+    await fetch(`${API_URL}/api/create`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ id, title, content }),
+    });
 
     // Done.
     setLoading(false);
